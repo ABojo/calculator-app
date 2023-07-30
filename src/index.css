@@ -18,6 +18,7 @@
   --color-key-shadow: hsl(28, 16%, 65%);
 
   --color-text: hsl(221, 14%, 31%);
+  --color-logo-text: var(--color-white);
 }
 
 :root.two {
@@ -35,6 +36,7 @@
   --color-key-shadow: hsl(35, 11%, 61%);
 
   --color-text: hsl(60, 10%, 19%);
+  --color-logo-text: var(--color-text);
 }
 
 :root.three {
@@ -52,6 +54,7 @@
   --color-key-shadow: hsl(290, 70%, 36%);
 
   --color-text: hsl(52, 100%, 62%);
+  --color-logo-text: var(--color-text);
 }
 
 *,
