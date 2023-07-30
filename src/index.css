@@ -1,0 +1,71 @@
+:root {
+  --number-size: 2rem;
+  --color-white: hsl(0, 0%, 100%);
+}
+
+:root.one {
+  --color-main-bg: hsl(222, 26%, 31%);
+  --color-keypad-bg: hsl(223, 31%, 20%);
+  --color-screen-bg: hsl(224, 36%, 15%);
+
+  --color-reset-bg: hsl(225, 21%, 49%);
+  --color-reset-shadow: hsl(224, 28%, 35%);
+
+  --color-equal: hsl(6, 63%, 50%);
+  --color-equal-shadow: hsl(6, 70%, 34%);
+
+  --color-key-bg: hsl(30, 25%, 89%);
+  --color-key-shadow: hsl(28, 16%, 65%);
+
+  --color-text: hsl(221, 14%, 31%);
+}
+
+:root.two {
+  --color-main-bg: hsl(0, 0%, 90%);
+  --color-keypad-bg: hsl(0, 5%, 81%);
+  --color-screen-bg: hsl(0, 0%, 93%);
+
+  --color-reset-bg: hsl(185, 42%, 37%);
+  --color-reset-shadow: hsl(185, 58%, 25%);
+
+  --color-equal: hsl(25, 98%, 40%);
+  --color-equal-shadow: hsl(25, 99%, 27%);
+
+  --color-key-bg: hsl(45, 7%, 89%);
+  --color-key-shadow: hsl(35, 11%, 61%);
+
+  --color-text: hsl(60, 10%, 19%);
+}
+
+:root.three {
+  --color-main-bg: hsl(268, 75%, 9%);
+  --color-keypad-bg: hsl(268, 71%, 12%);
+  --color-screen-bg: hsl(268, 71%, 12%);
+
+  --color-reset-bg: hsl(281, 89%, 26%);
+  --color-reset-shadow: hsl(285, 91%, 52%);
+
+  --color-equal: hsl(176, 100%, 44%);
+  --color-equal-shadow: hsl(177, 92%, 70%);
+
+  --color-key-bg: hsl(268, 47%, 21%);
+  --color-key-shadow: hsl(290, 70%, 36%);
+
+  --color-text: hsl(52, 100%, 62%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "League Spartan", sans-serif;
+}
+
+button {
+  font: inherit;
+}
