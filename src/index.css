@@ -1,6 +1,15 @@
 :root {
   --number-size: 2.5rem;
+  --display-size: 3.5rem;
   --color-white: hsl(0, 0%, 100%);
+  --bp-1: 28.125rem;
+}
+
+@media (max-width: 28.125rem) {
+  :root {
+    --number-size: 2rem;
+    --display-size: 2.5rem;
+  }
 }
 
 :root.one {

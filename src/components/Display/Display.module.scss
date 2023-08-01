@@ -4,7 +4,7 @@
   padding: 0 3rem;
   background-color: var(--color-screen-bg);
   border-radius: 0.5rem;
-  font-size: 3.5rem;
+  font-size: var(--display-size);
   min-height: 9rem;
   display: flex;
   flex-direction: column;
@@ -12,10 +12,18 @@
   align-items: flex-end;
   position: relative;
 
+  @media (max-width: 28.125rem) {
+    min-height: 7rem;
+  }
+
   &__history {
     font-size: 1.25rem;
     margin-bottom: 1rem;
     position: absolute;
     top: 0.75rem;
+
+    @media (max-width: 28.125rem) {
+      font-size: 1rem;
+    }
   }
 }
