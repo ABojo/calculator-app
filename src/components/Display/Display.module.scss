@@ -5,4 +5,17 @@
   background-color: var(--color-screen-bg);
   border-radius: 0.5rem;
   font-size: 3.5rem;
+  min-height: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+
+  &__history {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 1.5rem;
+  }
 }

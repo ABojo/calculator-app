@@ -1,10 +1,20 @@
 import styles from "./Display.module.scss";
 
 interface DisplayProps {
-  value: string;
+  currentValue: string;
+  lastValue?: string;
+  lastOperator?: string;
 }
-function Display({ value }: DisplayProps) {
-  return <div className={styles.display}>{value}</div>;
+
+function Display({ currentValue, lastValue, lastOperator }: DisplayProps) {
+  return (
+    <div className={styles.display}>
+      <span className={styles.display__history}>
+        {lastValue} {lastOperator}
+      </span>
+      <span className={styles.display__current}>{currentValue}</span>
+    </div>
+  );
 }
 
 export default Display;
