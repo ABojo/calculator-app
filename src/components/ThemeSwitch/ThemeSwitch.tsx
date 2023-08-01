@@ -33,9 +33,20 @@ function ThemeSwitch() {
             onClick={switchTheme}
             data-theme="one"
             className={`${styles.control__button} ${styles["control__button--active"]}`}
+            aria-label="Select theme one"
           ></button>
-          <button onClick={switchTheme} data-theme="two" className={styles.control__button}></button>
-          <button onClick={switchTheme} data-theme="three" className={styles.control__button}></button>
+          <button
+            onClick={switchTheme}
+            data-theme="two"
+            className={styles.control__button}
+            aria-label="Select theme two"
+          ></button>
+          <button
+            onClick={switchTheme}
+            data-theme="three"
+            className={styles.control__button}
+            aria-label="Select theme three"
+          ></button>
         </div>
       </div>
     </div>

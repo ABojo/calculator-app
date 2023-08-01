@@ -31,15 +31,14 @@
   &__button {
     height: 0.8rem;
     width: 0.8rem;
-    background: var(--color-equal);
     border: none;
     border-radius: 100%;
     cursor: pointer;
-    opacity: 0;
+    background-color: transparent;
     transition: all 0.2s;
 
     &--active {
-      opacity: 1;
+      background-color: var(--color-equal);
     }
   }
 }
