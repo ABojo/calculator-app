@@ -1,0 +1,9 @@
+.keypad {
+  width: 100%;
+  background-color: var(--color-keypad-bg);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
